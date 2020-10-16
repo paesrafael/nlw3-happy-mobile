@@ -1,6 +1,16 @@
-module.exports = function(api) {
-  api.cache(true);
-  return {
-    presets: ['babel-preset-expo'],
-  };
-};
+module.exports = {
+  env: {
+    production: {
+      plugins: ['transform-remove-console'],
+    },
+  },
+  presets: ['module:metro-react-native-babel-preset', 'babel-preset-expo'],
+  plugins: [
+    [
+      'babel-plugin-root-import',
+      {
+        rootPathSuffix: 'src',
+      },
+    ],
+  ],
+}
