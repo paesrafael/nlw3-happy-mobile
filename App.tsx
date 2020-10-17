@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ThemeProvider } from 'styled-components'
+import { ThemeProvider } from 'styled-components/native'
 
 import themes from '~/assets/themes'
 
