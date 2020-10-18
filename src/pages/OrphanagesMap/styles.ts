@@ -25,8 +25,8 @@ const MarkerView = styled.View`
 `
 
 const Text = styled.Text`
-  font-family: ${(props: TextProps) => (props.fontFamily ? props.fontFamily : 'Nunito_700Bold')};
   font-size: 14px;
+  font-family: ${(props: TextProps) => (props.fontFamily ? props.fontFamily : 'Nunito_700Bold')};
   color: ${(props) => (props.color ? props.theme.colors.blueMediumLight : props.theme.colors.text)};
 `
 
