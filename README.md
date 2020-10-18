@@ -124,8 +124,18 @@ yarn start
 # Usando NPM
 npm start
 
-# Acesse a aplicação em http://localhost:3000
+# Acesse a aplicação em http://localhost:19002
 ```
+
+Agora com o navegador aberto, no menu lateral você encontra opções para abrir o aplicativo, escolha a que você preferir.
+
+- Emulador do Android
+- Emulador do iOS
+- Seu smartphone
+  - Baixe o Aplicativo da Expo na App Store ou Google play
+  - Escanei o QRCode no aplicativo
+
+Para mais informações veja a documentação do Expo.
 
 # Autor
 
